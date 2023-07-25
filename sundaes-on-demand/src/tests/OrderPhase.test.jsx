@@ -76,5 +76,7 @@ expect(scooptotal).toHaveTextContent('0.00')
 const toppingTotal = await screen.findByText('Toppings total: $',{exact:false});
 expect(toppingTotal).toHaveTextContent('0.00')
 
+
 unmount();
-})
+});
+
